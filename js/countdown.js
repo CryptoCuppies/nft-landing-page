@@ -1,13 +1,13 @@
 //Countdown Timer
 const clockdiv = document.getElementById("countdown");
 const countDownTime = new Date(
-  clockdiv.getAttribute("data-date")
+  clockdiv.getAttribute("date-01/3/2022")
 ).getTime();
 
 const countdownfunction = setInterval(function () {
   const now = new Date().getTime();
   const diff = countDownTime - now;
-  const days = Math.floor(diff / (10000 * 60 * 60 * 24));
+  const days = Math.floor(diff / (1000 * 60 * 60 * 24));
   const hours = Math.floor(diff % (1000 * 60 * 60 * 24) / (1000 * 60 * 60));
   const minutes = Math.floor(diff % (1000 * 60 * 60) / (1000 * 60));
   const seconds = Math.floor(diff % (1000 * 60) / 1000);
