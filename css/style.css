@@ -47,6 +47,7 @@ header .container {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  background-image: image-set(images/header/header opensea.jpg);
 }
 
 .menu {
