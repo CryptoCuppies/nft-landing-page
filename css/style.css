@@ -38,12 +38,12 @@ body {
 }
 
 .paragraph {
+  background-color: var(--bg-color);
   display: flex;
-  flex-direction: column;
-  max-width: 960px;
-  margin: 0 auto;
-  padding: 1rem 2rem;
-}
+  flex-flow: column;
+  height: 100vh;
+  color: var(--font-color);
+  font-family: var(--font-primary);
 
 * {
   padding: 0;
