@@ -42,17 +42,6 @@ body {
   margin: 0;
   box-sizing: border-box;
 }
-
-.paragraph {
-  background-color: var(--accent-color)
-  display: flex;
-  flex-direction: column;
-  max-width: 1000px;
-  margin: 0 auto;
-  padding: 1rem 2rem;
-  font-family: var(--font-secondary);
-}
-
 /* HEADER */
 
 header {
