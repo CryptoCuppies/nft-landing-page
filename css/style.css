@@ -50,7 +50,7 @@ body {
 }
 
 .paragraph {
-  background-color: var(--accent-color);
+  background-color: var(--bg-color);
   display: flex;
   flex-flow: column;
   height: 100vh;
