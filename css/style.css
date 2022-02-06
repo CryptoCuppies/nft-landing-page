@@ -37,7 +37,7 @@ body {
   padding: 1rem 2rem;
 }
 
-.container {
+.paragraph {
   display: flex;
   flex-direction: column;
   max-width: 960px;
