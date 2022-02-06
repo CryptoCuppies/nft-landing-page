@@ -7,10 +7,10 @@
   --font-primary: 'Sniglet', sans-serif;
   --font-secondary: 'Dosis', serif;
   --font-code: 'Dosis', monospace;
-  --bg-color: #00ffb3;
+  --bg-color: #00ffb3b9;
   --font-color: #000000;
-  --btn-bg-color: #ffffff;
-  --accent-color: #e7c054;
+  --btn-bg-color: #1386bb;
+  --accent-color: #1386bb;
   --header-shadow: #000 0px 0px 5px;
 }
 
