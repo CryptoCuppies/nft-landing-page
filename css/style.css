@@ -36,7 +36,7 @@ body {
   margin: 0 auto;
   padding: 1rem 2rem;
 }
-.container {
+.content {
   background-color: var(--accent-color)
   display: flex;
   flex-direction: column;
